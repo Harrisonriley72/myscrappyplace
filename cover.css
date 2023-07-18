@@ -1,0 +1,22 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+#navvy {
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+}
+
+#navbrand {
+	font-family: 'Lobster';
+	font-size: 30px;
+}
+
+.card {
+	background: gainsboro !important;
+}
+
+.btn {
+	background: lightsteelblue !important;
+	border: 0;
+}
