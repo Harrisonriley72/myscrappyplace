@@ -1,15 +1,15 @@
 body {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Quicksand', sans-serif !important;
 }
 
 #navvy {
-	font-family: 'Josefin Sans';
+	font-family: 'Quicksand';
 	font-size: 20px;
 }
 
 #navbrand {
-	font-family: 'Lobster';
-	font-size: 30px;
+	font-family: 'Cookie';
+	font-size: 55px !important;
 }
 
 .card {
