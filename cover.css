@@ -34,3 +34,9 @@ body {
 #readmorelink {
 	color: #48D1CC;
 }
+
+#blogimg {
+	border-color: #429E9D; 
+	border-style: solid; 
+	border-width: medium;
+}
