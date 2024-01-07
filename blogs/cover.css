@@ -28,9 +28,5 @@ body {
 .btn {
 	background: #E0FFFF !important;	
 	border: 0;
-	color: #008080 !important;
-}
-
-#readmorelink {
-	color: #48D1CC;
+	color: black !important;
 }

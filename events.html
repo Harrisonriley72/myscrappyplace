@@ -13,7 +13,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Quicksand&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
 
-
 	<link href="cover.css" rel="stylesheet">
 	<script defer src="app.js"></script>
 </head>
@@ -58,54 +57,13 @@
 			</div>
 		</header>
 		<main>
-			<div class="hidden mx-4 text-white">
-			<h1 class="fw-bold pt-3 text-center">Let's stay connected!</h3>
-			<p>Fill out the following form if you like to get on my email list or send me a message. I'd love to hear from you if you have any thoughts about my blog posts, ideas for future blog posts, or questions about scrapbooking. I also encourage you to follow me on <a id="readmorelink" href="#">Instagram</a> and <a id="readmorelink" href="#">Facebook</a> and shop with me on <a href="https://www.creativememories.com/cm/criley" id="readmorelink" target="_blank" rel="noopener noreferrer">Creative Memories</a>.</p>
-			<form class="row g-4" action="https://formsubmit.co/61a80f5129eb8b291c516794a243f084" style="font-size: 16px;" method="POST">
-				<div class="col-md-6">
-					<label for="firstName" class="form-label">First Name<span id="readmorelink">*</span></label>
-					<input type="text" class="form-control" name="First Name" id=firstName required>
+			<div class="mx-4" style="color: #fff;">
+				<h1 class="hidden text-center fw-bold pt-3">Upcoming Events!</h1>
+				<p class="hidden text-center">Check out the calendar below to see what I have planned.</p>
+				<div style="display: flex; width: 100%; max-width: 1000px; margin: 0px auto 0;">
+					<iframe src="https://calendar.google.com/calendar/embed?height=750&wkst=1&bgcolor=%23ffffff&ctz=America%2FChicago&showTitle=0&showPrint=0&src=bXlzY3JhcHB5cGxhY2UxOTBAZ21haWwuY29t&color=%2333B679" style="border-width:0" width="100%" height="750" frameborder="0" scrolling="no"></iframe>
 				</div>
-				<div class="col-md-6">
-					<label for="lastName" class="form-label">Last Name<span id="readmorelink">*</span></label>
-					<input type="text" class="form-control" name="Last Name" id=lastName required>
-				</div>
-				<div class="col-md-8">
-					<label for="Email" class="form-label">Email<span id="readmorelink">*</span></label>
-					<input type="email" class="form-control" name="email" id="Email" required>
-				</div>
-				<div class="col-md-4">
-					<label for="phoneNum" class="form-label">Phone Number</label>
-					<input type="text" class="form-control" name="Phone" id="phoneNum" placeHolder="+1 (415) 867-5309">
-				</div>
-				<div class="col-md-12">
-					<legend style="font-size: 16px;">Would you like to subscribe to my emailing list?</legend>
-
-					<div class="form-check ms-4">
-						<input class="form-check-input" type="radio" name="Mail_list_subscription" id="radio1" value="Yes">
-						<label class="form-check-label">Yes</label>
-					</div>
-
-					<div class="form-check ms-4">
-						<input class="form-check-input" type="radio" name="Mail_list_subscription" id="radio2" value="No">
-						<label class="form-check-label">No</label>
-					</div>
-
-					<div class="form-check ms-4">
-						<input class="form-check-input" type="radio" name="Mail_list_subscription" id="radio3" value="N/A">
-						<label class="form-check-label">I'm already subscribed!</label>
-					</div>
-				</div>
-				<div class="col-md-12">
-					<label for="Message" class="form-label">Message</label>
-					<textarea class="form-control" id="Message" name="message" rows="3"required></textarea>
-				</div>
-				<div class="col-md-12">
-            		<button type="submit" class="btn">Submit</button>
-          		</div>
-			</form>
-			<p class="fs-6 float-end"><span id="readmorelink">*</span> indicates required field.</p>
-		</div>
+			</div>
 		</main>
 
 		<footer style="background: #008080;">
